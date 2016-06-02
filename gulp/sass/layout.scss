@@ -1,5 +1,9 @@
+@import "includes/variables.scss";
+@import "includes/general_classes.scss";
 body {
-    height: 300px;
-    width: 100%;
-    background: red;
+    // background: #000;
+}
+.icon {
+    height: 10rem;
+    width: 10rem;
 }

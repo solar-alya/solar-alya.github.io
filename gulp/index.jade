@@ -2,4 +2,11 @@ doctype html
 html(lang="en")
       include includes/head.jade
       body
-        p gggggg
+        include includes/sprite.html
+        .container
+            .contacts
+                svg.icon(viewBox="0 0 314.652 314.652")
+                    use(xmlns:xlink="http://www.w3.org/2000/svg" xlink:href="#facebook")
+                svg.icon(viewBox="0 0 512 512")
+                    use(xmlns:xlink="http://www.w3.org/2000/svg" xlink:href="#github")
+            .information
