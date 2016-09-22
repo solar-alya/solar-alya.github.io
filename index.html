@@ -7,51 +7,239 @@
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link href="css/fonts.css" rel="stylesheet">
     <link href="css/reset.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
     <link href="css/layout.css" rel="stylesheet">
     <link href="css/mobile.css" rel="stylesheet">
   </head>
   <body><div class="svg_all">
 	<svg xmlns="http://www.w3.org/2000/svg">
         <symbol id="facebook">
-            <path d="M157.326,0C70.576,0,0,70.576,0,157.326s70.576,157.326,157.326,157.326s157.326-70.576,157.326-157.326   S244.076,0,157.326,0z M157.326,296.652C80.501,296.652,18,234.15,18,157.326S80.501,18,157.326,18s139.326,62.502,139.326,139.326   S234.151,296.652,157.326,296.652z" fill="#FFFFFF"/>
-	        <path d="M193.764,71.952H172.43c-17.461,0-31.667,14.206-31.667,31.667v24h-19.875c-4.971,0-9,4.029-9,9s4.029,9,9,9h19.875v83.333   c0,4.971,4.029,9,9,9s9-4.029,9-9v-83.333h30.75c4.971,0,9-4.029,9-9s-4.029-9-9-9h-30.75v-24c0-7.536,6.131-13.667,13.667-13.667   h21.333c4.971,0,9-4.029,9-9S198.734,71.952,193.764,71.952z" fill="#FFFFFF"/>
         </symbol>
 
         <symbol id="github">
-            <path d="M256,0C114.615,0,0,114.615,0,256s114.615,256,256,256s256-114.615,256-256S397.385,0,256,0z M408.027,408.027   c-19.76,19.759-42.756,35.267-68.354,46.094c-6.502,2.75-13.105,5.164-19.801,7.246V423c0-20.167-6.916-35-20.75-44.5   c8.668-0.833,16.625-2,23.875-3.5s14.918-3.667,23-6.5c8.084-2.833,15.334-6.208,21.75-10.125c6.418-3.917,12.584-9,18.5-15.25   c5.918-6.25,10.875-13.333,14.875-21.25s7.168-17.417,9.5-28.5c2.334-11.083,3.5-23.292,3.5-36.625c0-25.833-8.416-47.833-25.25-66   c7.668-20,6.834-41.75-2.5-65.25l-6.25-0.75c-4.332-0.5-12.125,1.333-23.375,5.5s-23.875,11-37.875,20.5   c-19.832-5.5-40.416-8.25-61.749-8.25c-21.5,0-42,2.75-61.5,8.25c-8.833-6-17.208-10.958-25.125-14.875s-14.25-6.583-19-8   s-9.167-2.292-13.25-2.625s-6.708-0.417-7.875-0.25s-2,0.333-2.5,0.5c-9.333,23.667-10.167,45.417-2.5,65.25   c-16.833,18.167-25.25,40.167-25.25,66c0,13.333,1.167,25.542,3.5,36.625s5.5,20.583,9.5,28.5s8.958,15,14.875,21.25   s12.083,11.333,18.5,15.25s13.667,7.292,21.75,10.125s15.75,5,23,6.5s15.208,2.667,23.875,3.5c-13.667,9.333-20.5,24.167-20.5,44.5   v39.115c-7.549-2.247-14.99-4.902-22.3-7.994c-25.597-10.827-48.594-26.335-68.353-46.094   c-19.758-19.758-35.267-42.756-46.093-68.354C46.679,313.195,41,285.043,41,256s5.679-57.195,16.879-83.675   c10.827-25.597,26.335-48.594,46.093-68.353c19.758-19.759,42.756-35.267,68.353-46.093C198.805,46.679,226.957,41,256,41   s57.195,5.679,83.676,16.879c25.598,10.827,48.594,26.335,68.354,46.093c19.758,19.758,35.266,42.756,46.092,68.353   C465.32,198.805,471,226.957,471,256s-5.68,57.195-16.879,83.675C443.295,365.271,427.785,388.27,408.027,408.027z" fill="#FFFFFF"/>
         </symbol>
+
         <symbol id="instagram">
-            <path d="M157.326,0C70.576,0,0,70.576,0,157.326s70.576,157.326,157.326,157.326s157.326-70.576,157.326-157.326   S244.076,0,157.326,0z M157.326,296.652C80.502,296.652,18,234.15,18,157.326S80.502,18,157.326,18s139.326,62.502,139.326,139.326   S234.15,296.652,157.326,296.652z" fill="#FFFFFF"/>
-        	<path d="M214.618,80.326H100.034c-10.477,0-19,8.523-19,19v116c0,10.477,8.523,19,19,19h114.584c10.477,0,19-8.523,19-19v-116   C233.618,88.85,225.095,80.326,214.618,80.326z M215.618,215.326c0,0.552-0.448,1-1,1H100.034c-0.552,0-1-0.448-1-1v-116   c0-0.552,0.448-1,1-1h114.584c0.552,0,1,0.448,1,1V215.326z" fill="#FFFFFF"/>
-        	<rect x="183.583" y="111.812" width="20.615" height="18.911" fill="#FFFFFF"/>
-        	<circle cx="157.326" cy="164.946" r="20.324" fill="#FFFFFF"/>
-        	<path d="M189.745,164.856c0,17.904-14.514,32.418-32.418,32.418s-32.418-14.514-32.418-32.418l0.044-14.445h-14.497v53.761h93.743   v-53.761H189.82L189.745,164.856z" fill="#FFFFFF"/>
         </symbol>
+
         <symbol id="linkedin">
-            <path d="M157.326,0C70.576,0,0,70.576,0,157.326s70.576,157.326,157.326,157.326s157.326-70.576,157.326-157.326   S244.076,0,157.326,0z M157.326,296.652C80.501,296.652,18,234.15,18,157.326S80.501,18,157.326,18s139.326,62.502,139.326,139.326   S234.151,296.652,157.326,296.652z" fill="#FFFFFF"/>
-        	<path d="M112.326,121.119c-4.971,0-9,4.029-9,9v74.414c0,4.971,4.029,9,9,9s9-4.029,9-9v-74.414   C121.326,125.148,117.297,121.119,112.326,121.119z" fill="#FFFFFF"/>
-        	<path d="M112.326,79.116c-2.37,0-4.69,0.96-6.36,2.64c-1.68,1.67-2.64,3.99-2.64,6.36s0.96,4.689,2.64,6.37   c1.67,1.67,3.99,2.63,6.36,2.63c2.37,0,4.69-0.96,6.36-2.63c1.68-1.681,2.64-4,2.64-6.37s-0.96-4.69-2.64-6.36   C117.016,80.076,114.696,79.116,112.326,79.116z" fill="#FFFFFF"/>
-        	<path d="M190.076,128.119c-9.42,0-18.139,3.036-25.25,8.169v-6.169c0-4.971-4.029-9-9-9s-9,4.029-9,9v74.414c0,4.971,4.029,9,9,9   s9-4.029,9-9v-33.164c0-13.923,11.327-25.25,25.25-25.25s25.25,11.327,25.25,25.25v35.164c0,4.971,4.029,9,9,9s9-4.029,9-9v-35.164   C233.326,147.521,213.924,128.119,190.076,128.119z" fill="#FFFFFF"/>
         </symbol>
 
         <symbol id="skype">
-            <path d="M256,0C114.609,0,0,114.609,0,256c0,141.391,114.609,256,256,256c141.391,0,256-114.609,256-256    C512,114.609,397.391,0,256,0z M256,472c-119.297,0-216-96.703-216-216S136.703,40,256,40s216,96.703,216,216S375.297,472,256,472    z" fill="#FFFFFF"/>
-    		<path d="M366.734,256.297c0-63.016-51.095-114.109-114.125-114.109c-5.891,0-11.641,0.578-17.281,1.438    c-11.39-9.72-26.125-15.626-42.25-15.626C157.156,128,128,157.141,128,193.078c0,14.672,4.906,28.172,13.109,39.047    c-1.672,7.797-2.609,15.875-2.609,24.172c0,63.047,51.078,114.141,114.109,114.141c8.094,0,16-0.875,23.609-2.483    C287.656,377.922,302.562,384,318.922,384C354.859,384,384,354.859,384,318.922c0-17.766-7.125-33.844-18.688-45.578    C366.156,267.75,366.734,262.094,366.734,256.297z M305.859,306c-4.484,6.391-11.078,11.391-19.734,15    c-8.656,3.641-18.922,5.438-30.781,5.438c-14.25,0-26-2.469-35.25-7.422c-6.547-3.547-11.875-8.297-15.984-14.25    c-4.094-5.922-6.156-11.703-6.156-17.312c0-3.267,1.234-6.047,3.688-8.359c2.469-2.327,5.609-3.483,9.406-3.483    c3.078,0,5.703,0.891,7.828,2.719c2.125,1.797,3.953,4.484,5.453,8.031c1.844,4.233,3.828,7.75,5.953,10.578    c2.125,2.844,5.141,5.188,9,7.016c3.875,1.844,8.969,2.766,15.25,2.766c8.672,0,15.702-1.844,21.108-5.562    c5.406-3.703,8.125-8.328,8.125-13.892c0-4.391-1.453-7.969-4.375-10.703c-2.922-2.75-6.688-4.844-11.328-6.297    c-4.625-1.438-10.78-2.983-18.546-4.608c-10.359-2.234-19.031-4.845-26.016-7.812c-6.984-3-12.547-7.062-16.625-12.219    c-4.109-5.172-6.156-11.578-6.156-19.219c0-7.312,2.156-13.781,6.5-19.453c4.312-5.656,10.578-10.031,18.797-13.062    c8.203-3.047,17.828-4.562,28.922-4.562c8.844,0,16.516,1,22.969,3.016c6.469,2.016,11.827,4.703,16.094,8.047    c4.25,3.359,7.375,6.875,9.345,10.547c1.969,3.672,2.952,7.266,2.952,10.75c0,3.203-1.233,6.094-3.672,8.656    c-2.469,2.547-5.547,3.844-9.219,3.844c-3.345,0-5.892-0.781-7.625-2.312c-1.734-1.531-3.625-4.047-5.656-7.547    c-2.625-5-5.767-8.922-9.453-11.719c-3.672-2.797-9.577-4.203-17.719-4.203c-7.531,0-13.609,1.516-18.234,4.562    c-4.641,3.031-6.938,6.703-6.938,10.984c0,2.656,0.781,4.953,2.359,6.875c1.562,1.938,3.734,3.578,6.5,4.969    c2.734,1.391,5.531,2.469,8.359,3.281c2.812,0.766,7.469,1.922,13.969,3.422c8.125,1.75,15.484,3.688,22.078,5.797    c6.594,2.109,12.203,4.672,16.828,7.672c4.641,3.031,8.25,6.844,10.828,11.453c2.594,4.609,3.891,10.266,3.891,16.969    C312.594,292.391,310.344,299.609,305.859,306z" fill="#FFFFFF"/>
         </symbol>
-
 	</svg>
 </div>
 
+    <nav class="menu">
+      <ul class="menu__wrapper">
+        <li data-menu_item="home" class="menu__item">home</li>
+        <li data-menu_item="about" class="menu__item">who i am</li>
+        <li data-menu_item="skills" class="menu__item">skills</li>
+        <li data-menu_item="projects" class="menu__item">projects</li>
+        <li data-menu_item="contact" class="menu__item">contact me</li>
+      </ul>
+    </nav>
     <div class="container">
-      <div class="contacts">
-        <svg viewBox="0 0 314.652 314.652" class="icon">
-          <use xmlns:xlink="http://www.w3.org/2000/svg" xlink:href="#facebook"></use>
-        </svg>
-        <svg viewBox="0 0 512 512" class="icon">
-          <use xmlns:xlink="http://www.w3.org/2000/svg" xlink:href="#github"></use>
-        </svg>
-      </div>
-      <div class="information"></div>
+      <section id="home" class="section">
+        <div class="stripe stripe--first"></div>
+        <div class="stripe stripe--second"></div>
+        <div class="stripe stripe--third"></div>
+        <div class="stripe stripe--fourth"></div>
+        <div class="stripe__top"></div>
+        <div class="stripe__bottom"></div>
+        <div class="section__inner">
+          <div class="section__header">
+            <div class="number">
+              <p>01.</p>
+            </div>
+          </div>
+          <div class="home__title">
+            <h1>Alya Surikova</h1>
+            <h2>I Am Front-End Developer</h2>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="section">
+        <div class="stripe stripe--first"></div>
+        <div class="stripe stripe--second"></div>
+        <div class="stripe stripe--third"></div>
+        <div class="stripe stripe--fourth"></div>
+        <div class="section__inner">
+          <div class="section__header">
+            <h1 class="section__title">who i am</h1>
+            <div class="number">
+              <p>02.</p>
+            </div>
+          </div>
+          <div class="section__left-side">
+            <div class="about__text-wrapper">
+              <div class="text-decorated"></div>
+              <p class="about__text-inner">I love what I do. And I am looking for a team that loves their job too. And a mentor who can help me develop. I promise to be a good worker and try, by all means, to justify your hopes.</p>
+            </div>
+          </div>
+          <div class="expirience">
+            <h2 class="expirience__title">Work Expirience</h2>
+            <ul class="expirience__list">
+              <li class="expirience__item">
+                <p class="expirience__date">2014 - jan 2016</p>
+                <p class="expirience__name">Freelance</p>
+              </li>
+              <li class="expirience__item">
+                <p class="expirience__date">dec 2016 - feb 2016</p>
+                <p class="expirience__name">Kontora Production</p>
+              </li>
+              <li class="expirience__item">
+                <p class="expirience__date">feb 2016 - sep 2016</p>
+                <p class="expirience__name">Binboro</p>
+              </li>
+              <li class="expirience__item">
+                <p class="expirience__date">sep 2016 - Current Time</p>
+                <p class="expirience__name">Freelance</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="section">
+        <div class="stripe stripe--first"></div>
+        <div class="stripe stripe--second"></div>
+        <div class="stripe stripe--third"></div>
+        <div class="stripe stripe--fourth"></div>
+        <div class="skills__stripe__bottom"></div>
+        <div class="section__inner">
+          <div class="section__header">
+            <h1 class="section__title section__title--color">Skills</h1>
+            <div class="number">
+              <p>03.</p>
+            </div>
+          </div>
+          <div class="section__left-side">
+            <ul class="skills__list">
+              <li class="skills__item html">
+                <div class="skills__item__inner">HTML</div>
+              </li>
+              <li class="skills__item css">
+                <div class="skills__item__inner">CSS 3</div>
+              </li>
+              <li class="skills__item javascript">
+                <div class="skills__item__inner">JavaScript</div>
+              </li>
+              <li class="skills__item jade">
+                <div class="skills__item__inner">Jade (Pug)</div>
+              </li>
+              <li class="skills__item sass">
+                <div class="skills__item__inner">Sass</div>
+              </li>
+              <li class="skills__item jquery">
+                <div class="skills__item__inner">Jquery</div>
+              </li>
+              <li class="skills__item gulp">
+                <div class="skills__item__inner">Gulp</div>
+              </li>
+              <li class="skills__item git">
+                <div class="skills__item__inner">GIT</div>
+              </li>
+            </ul>
+          </div>
+          <div class="section__right-side other-skills">
+            <h2 class="skills__title">Other  Skills</h2>
+            <ul class="other-skills__list">
+              <li class="other-skills__item">Cross-browser Development</li>
+              <li class="other-skills__item">Pixel Perfect</li>
+              <li class="other-skills__item">Responsive</li>
+              <li class="other-skills__item">Bem methodology</li>
+            </ul>
+            <h2 class="skills__title">Soft</h2>
+            <ul class="other-skills__list">
+              <li class="other-skills__item">Photoshop</li>
+              <li class="other-skills__item">AvoCode</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="section">
+        <div class="section__inner">
+          <div class="section__header">
+            <h1 class="section__title">Projects</h1>
+            <div class="number">
+              <p>04.</p>
+            </div>
+          </div>
+          <div class="slider__wrapper">
+            <div id="slider" class="owl-carousel">
+              <div class="owl-carousel__item"> 
+                <p class="project__date">feb 2015</p><a href="sites/sndsgn_site/index.html"><img src="images/sndsgn.jpg" alt="sndsgn"></a>
+                <h2 class="project__name">sndsgn</h2>
+                <p class="project__technology">HTML, CSS, JavaScript, JQuery</p>
+              </div>
+              <div class="owl-carousel__item"> 
+                <p class="project__date">mar 2015</p><a href="sites/Parallels_Flat/index.html"><img src="images/MainDark.jpg" alt="Parallels"></a>
+                <h2 class="project__name">Parallels</h2>
+                <p class="project__technology">HTML, CSS, JavaScript, JQuery</p>
+              </div>
+              <div class="owl-carousel__item"> 
+                <p class="project__date">jan 2015</p><a href="sites/clothing/index.html"><img src="images/HS.jpg" alt="HAZY SHADE"></a>
+                <h2 class="project__name">HAZY SHADE</h2>
+                <p class="project__technology">HTML, CSS, JavaScript</p>
+              </div>
+              <div class="owl-carousel__item"> 
+                <p class="project__date">aug 2014</p><a href="sites/cars/index.html"><img src="images/page1.jpg" alt="CarRental"></a>
+                <h2 class="project__name">CarRental</h2>
+                <p class="project__technology">HTML, CSS, JavaScript</p>
+              </div>
+              <div class="owl-carousel__item"> 
+                <p class="project__date">may 2014</p><a href="sites/hexal/index.html"><img src="images/hexal.jpg" alt="hexal"></a>
+                <h2 class="project__name">hexal</h2>
+                <p class="project__technology">HTML, CSS    </p>
+              </div>
+              <div class="owl-carousel__item">
+                <p class="project__date">mar 2014</p><a href="http://akademgorodok-sovinyon.com.ua/"><img src="images/AG.jpg" alt="AG"></a>
+                <h2 class="project__name">AcademGorodok</h2>
+                <p class="project__technology">HTML, CSS, JQuery</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="stripe stripe--first"></div>
+        <div class="stripe stripe--second"></div>
+        <div class="stripe stripe--third"></div>
+        <div class="stripe stripe--fourth"></div>
+      </section>
+      <section id="contact" class="section"> 
+        <div class="section__inner">
+          <div class="section__header">
+            <h1 class="section__title">Contact Me</h1>
+            <div class="number">
+              <p>05.</p>
+            </div>
+          </div>
+          <div class="section__left-side">
+            <div class="contacts__header">
+              <div class="contacts__img">
+                <div class="contacts__img__inner"><img src="images/RVtMJVGOr2A.jpg" alt="Alya Surikova"></div>
+              </div>
+              <div class="contacts__title"><span class="contacts__name">Alya</span><span class="contacts__surname">Surikova</span><span class="contacts__city">Odessa</span></div>
+            </div>
+            <div class="contacts__inner"> 
+              <div class="contacts__details">
+                <p>Phone</p><a href="tel:+380950029555">+38 (095) 00-29-555</a>
+              </div>
+              <div class="contacts__details">
+                <p>E-mail</p><a href="mailto:solar.alya@gmail.com">solar.alya@gmail.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="section__right-side"></div>
+        </div>
+        <div class="stripe stripe--first"></div>
+        <div class="stripe stripe--second"></div>
+        <div class="stripe stripe--third"></div>
+        <div class="stripe stripe--fourth"></div>
+      </section>
+      <script src="js/jquery-1.9.1.min.js"></script>
+      <script src="js/owl.carousel.min.js"></script>
+      <script src="js/script.js"></script>
     </div>
   </body>
 </html>

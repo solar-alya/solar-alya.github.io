@@ -3,10 +3,12 @@ html(lang="en")
       include includes/head.jade
       body
         include includes/sprite.html
+        include includes/menu.jade
         .container
-            .contacts
-                svg.icon(viewBox="0 0 314.652 314.652")
-                    use(xmlns:xlink="http://www.w3.org/2000/svg" xlink:href="#facebook")
-                svg.icon(viewBox="0 0 512 512")
-                    use(xmlns:xlink="http://www.w3.org/2000/svg" xlink:href="#github")
-            .information
+            include includes/home.jade
+            include includes/about.jade
+            include includes/skills.jade
+            include includes/projects.jade
+            include includes/contact.jade
+            include includes/footer.jade
+            
