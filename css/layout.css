@@ -173,7 +173,9 @@ html, body {
     color: #fff;
     font-size: 10.5rem;
     letter-spacing: 1.5rem;
-    z-index: 2; }
+    z-index: 2;
+    max-width: 90vw;
+    margin: 0 auto; }
     .home__title h1:before {
       position: absolute;
       content: '';
