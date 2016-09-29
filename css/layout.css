@@ -23,12 +23,19 @@ html, body {
   color: #fff; }
 
 /*menu*/
+.menu__icon {
+  display: none; }
+
 .menu {
   position: fixed;
   bottom: 0;
   z-index: 20; }
 
 .menu__wrapper {
+  position: relative;
+  width: 100%; }
+
+.menu__list {
   display: table; }
 
 .menu__item {
@@ -48,6 +55,9 @@ html, body {
 .menu__item:nth-child(even) {
   background: #222328;
   height: 3rem; }
+
+.menu__item:hover {
+  opacity: .7; }
 
 .svg_all {
   display: none; }

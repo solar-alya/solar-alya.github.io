@@ -1,7 +1,15 @@
 nav.menu
-    ul.menu__wrapper
-        li.menu__item(data-menu_item = "home") home
-        li.menu__item(data-menu_item = "about") who i am
-        li.menu__item(data-menu_item = "skills") skills
-        li.menu__item(data-menu_item = "projects") projects
-        li.menu__item(data-menu_item = "contact") contact me
+    .menu__wrapper
+        ul.menu__list
+            li.menu__item(data-menu_item = "home") home
+            li.menu__item(data-menu_item = "about") who i am
+            li.menu__item(data-menu_item = "skills") skills
+            li.menu__item(data-menu_item = "projects") projects
+            li.menu__item(data-menu_item = "contact") contact me
+    .menu__icon
+        svg.menu__icon__burger(xmlns='http://www.w3.org/2000/svg', viewbox='0 0 53 53')
+            path(d='M2,13.5h49c1.104,0,2-0.896,2-2s-0.896-2-2-2H2c-1.104,0-2,0.896-2,2S0.896,13.5,2,13.5z', fill='#FFFFFF')
+            path(d='M2,28.5h49c1.104,0,2-0.896,2-2s-0.896-2-2-2H2c-1.104,0-2,0.896-2,2S0.896,28.5,2,28.5z', fill='#FFFFFF')
+            path(d='M2,43.5h49c1.104,0,2-0.896,2-2s-0.896-2-2-2H2c-1.104,0-2,0.896-2,2S0.896,43.5,2,43.5z', fill='#FFFFFF')
+        svg.menu__icon__close(xmlns='http://www.w3.org/2000/svg', viewbox='0 0 15.642 15.642')
+          path(fill-rule='evenodd', d='M8.882,7.821l6.541-6.541c0.293-0.293,0.293-0.768,0-1.061  c-0.293-0.293-0.768-0.293-1.061,0L7.821,6.76L1.28,0.22c-0.293-0.293-0.768-0.293-1.061,0c-0.293,0.293-0.293,0.768,0,1.061  l6.541,6.541L0.22,14.362c-0.293,0.293-0.293,0.768,0,1.061c0.147,0.146,0.338,0.22,0.53,0.22s0.384-0.073,0.53-0.22l6.541-6.541  l6.541,6.541c0.147,0.146,0.338,0.22,0.53,0.22c0.192,0,0.384-0.073,0.53-0.22c0.293-0.293,0.293-0.768,0-1.061L8.882,7.821z', fill='#FFFFFF')
