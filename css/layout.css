@@ -1,26 +1,10 @@
-@font-face {
-  font-family: "Franchise-Bold";
-  src: url("../fonts/Franchise-Bold.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal; }
-
-:root {
-  font-size: 7px; }
-
-@media (min-width: 640px) and (max-width: 1024px) {
-  :root {
-    font-size: 1.5625vw; } }
-
-@media (min-width: 1024px) {
-  :root {
-    font-size: 16px; } }
-
 html, body {
   width: 100%;
   height: 100%;
   background: #191A1E;
   font-family: "Franchise-Bold";
-  color: #fff; }
+  color: #fff;
+  -webkit-font-smoothing: antialiased; }
 
 /*menu*/
 .menu__icon {
@@ -67,13 +51,16 @@ html, body {
   height: 100%;
   position: relative; }
 
+.section__wrapper {
+  height: 100vh;
+  display: table; }
+
 .section__inner {
   width: 100%;
   height: 100vh;
   position: relative;
+  height: 100%;
   display: table;
-  padding-bottom: 10rem;
-  padding-top: 2rem;
   z-index: 3; }
 
 .stripe {
@@ -136,9 +123,9 @@ html, body {
   left: 80vw; }
   .number p {
     position: absolute;
-    left: -2.3rem;
+    left: -1.7rem;
     color: #E51747;
-    font-size: 12rem; }
+    font-size: 10rem; }
 
 .section__title {
   position: relative;
@@ -177,11 +164,12 @@ html, body {
 .home__title {
   display: table-cell;
   text-align: center;
-  vertical-align: middle; }
+  vertical-align: middle;
+  width: 100vw; }
   .home__title h1 {
     position: relative;
     color: #fff;
-    font-size: 10.5rem;
+    font-size: 6.5rem;
     letter-spacing: 1.5rem;
     z-index: 2;
     max-width: 90vw;
@@ -198,9 +186,18 @@ html, body {
       right: 50%;
       top: -20vh;
       z-index: -1; }
+    .home__title h1 .home__name {
+      background: url("../images/name_bg.png") no-repeat;
+      background-size: 90%;
+      padding: 3rem 1rem 5rem 1rem; }
+    .home__title h1 .home__surname {
+      background: url("../images/surname_bg.png") no-repeat;
+      background-size: 90%;
+      padding: 3rem 1rem 5rem 1rem; }
   .home__title h2 {
     color: #44DEAF;
-    font-size: 2.2rem; }
+    font-size: 2.2rem;
+    padding-top: 4rem; }
 
 .about__text-wrapper {
   position: relative; }

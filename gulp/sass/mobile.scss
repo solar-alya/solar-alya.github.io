@@ -56,4 +56,14 @@
     .menu__icon__close {
         display: none;
     }
+    .section__left-side, .section__right-side, .expirience {
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .section__inner {
+        width: 100vw;
+        display: table-cell;
+        vertical-align: middle;
+    }
 }

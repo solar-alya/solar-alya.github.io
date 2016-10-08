@@ -55,6 +55,9 @@ $(document).ready(function() {
       items : 3,
       itemsDesktop : [1199,3],
       itemsDesktopSmall : [980,1],
+      itemsTablet: [980,1],
+      itemsTabletSmall: [980,1],
+      itemsMobile:	[479,1]
 
   });
 
