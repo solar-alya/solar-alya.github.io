@@ -116,7 +116,7 @@ html, body {
   height: 8rem; }
 
 .number {
-  width: 10rem;
+  width: 6rem;
   height: 13rem;
   overflow: hidden;
   position: absolute;
@@ -142,7 +142,7 @@ html, body {
     width: 5rem;
     height: 2px;
     background: #44DEAF;
-    bottom: 1rem;
+    bottom: .5rem;
     left: -3rem; }
   .section__title--color:before {
     background: #E51747; }
