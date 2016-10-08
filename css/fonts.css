@@ -1,17 +1,1 @@
-@font-face {
-  font-family: 'Franchise-Bold';
-  src: url("../fonts/franchise-webfont.eot");
-  src: url("../fonts/franchise-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/franchise-webfont.woff2") format("woff2"), url("../fonts/franchise-webfont.woff") format("woff"), url("../fonts/franchise-webfont.svg#franchiseregular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-:root {
-  font-size: 10px; }
-
-@media (min-width: 640px) and (max-width: 1024px) {
-  :root {
-    font-size: 1.5625vw; } }
-
-@media (min-width: 1024px) {
-  :root {
-    font-size: 16px; } }
+@font-face{font-family:'Franchise-Bold';src:url(../fonts/franchise-webfont.eot);src:url(../fonts/franchise-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/franchise-webfont.woff2) format("woff2"),url(../fonts/franchise-webfont.woff) format("woff"),url(../fonts/franchise-webfont.svg#franchiseregular) format("svg");font-weight:400;font-style:normal}:root{font-size:10px}@media (min-width:640px) and (max-width:1024px){:root{font-size:1.5625vw}}@media (min-width:1024px){:root{font-size:16px}}

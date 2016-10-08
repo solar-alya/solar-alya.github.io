@@ -1,5 +1,6 @@
 var gulp = require('gulp'),
 	sass = require('gulp-sass'),
+	csso = require('gulp-csso'),
 	jade = require('gulp-jade');
 
 gulp.task('jade', function() {
@@ -11,6 +12,7 @@ gulp.task('jade', function() {
 gulp.task('sass', function () {
 	return gulp.src('gulp/sass/*.scss')
 	.pipe(sass().on('error', sass.logError))
+	.pipe(gulp.dest('./css')).pipe(csso())
 	.pipe(gulp.dest('css'));
 });
 
@@ -22,9 +24,3 @@ gulp.task('watch', function() {
 });
 
 gulp.task('default', ['watch']);
-
-/*
-sudo npm install --save-dev gulp-install  gulp
-sudo npm install --save-dev gulp-install  gulp-jade
-sudo npm install --save-dev gulp-install  gulp-sass
-*/
