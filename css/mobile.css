@@ -29,7 +29,7 @@
     width: auto;
     align-self: flex-end;
     padding: 2rem;
-    font-size: 4rem; }
+    font-size: 2rem; }
   .activ__item:before {
     width: 80%; }
   .menu__item:nth-child(odd), .menu__item:nth-child(even) {
