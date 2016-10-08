@@ -2,12 +2,12 @@
   .menu__icon {
     display: block;
     position: absolute;
-    right: 5vw;
+    left: 80vw;
     bottom: 5vw;
-    width: 15vw;
-    height: 15vw;
+    width: 50px;
+    height: 50px;
     background: #2C2D33;
-    padding: 3vw; }
+    padding: 10px; }
   .menu__wrapper {
     display: none;
     height: 100vh;

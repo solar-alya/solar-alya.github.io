@@ -161,6 +161,9 @@ html, body {
 .expirience {
   padding: 2rem 0 0 11vw; }
 
+.section__home {
+  overflow: hidden; }
+
 .home__title {
   display: table-cell;
   text-align: center;
