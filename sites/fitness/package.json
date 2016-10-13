@@ -1,0 +1,17 @@
+{
+  "name": "fitness",
+  "version": "1.0.0",
+  "desctription": "my project for portfolio",
+  "main": "index.html",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Alya Surikova",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.14.0"
+  },
+  "dependencies": {
+    "react-svg-use": "^1.0.2"
+  }
+}

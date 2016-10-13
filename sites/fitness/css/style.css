@@ -1,0 +1,41 @@
+html, body{
+    width: 100%;
+    height:  100%;
+    -webkit-font-smoothing: antialiased;
+}
+.first {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/bg.jpg") no-repeat;
+    background-size: cover;
+}
+.second {
+    width: 100%;
+    background: #a2ca28;
+}
+.advantages {
+    width: 74vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.advantages__item {
+    width: 17vw;
+    max-width: 270px;
+}
+.advantages__item svg {
+    width: 3vw;
+}
+.advantages__title {
+    font-family: 'open_sansregular', sans-serif;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: .5rem 0 .5rem 0;
+}
+.advantages__description {
+    font-family: 'open_sanslight', sans-serif;
+    color: #fff;
+    font-size: 0.87rem;
+    line-height: 1.7;
+}
