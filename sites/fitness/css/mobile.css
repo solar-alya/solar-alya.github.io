@@ -3,25 +3,42 @@
         width: 95vw;
     }
     .first {
-        background-position: -72vw 0;
+        /*background-position: -72vw 0;*/
         transition: all .5s;
     }
 
-    
-    nav {
-        display: none;
-        height: 100vh;
-        background: rgba(25,26,30,.8);
+    .menu__icon {
+        display: block;
         position: absolute;
-        right: 0;
+        right: 3rem;
+        top: 3rem;
+        width: 25px;
+        height: 25px;
+    }
+    nav {
+        /*display: none;*/
+        height: 100vh;
+        background: rgba(253,99,78,.8);
+        position: absolute;
+        right: -100vw;
+        top: 0;
         transition: 1s all;
+        padding: 8rem 4rem;
     }
     .menu__icon__close {
         display: none;
     }
     .menu__state {
         right: 0;
+        top: 0;
+        /*display: block;*/
+        transition: 1s all;
+        padding: 8rem 4rem;
+    }
+    .menu a {
         display: block;
+        margin: 2rem 0;
+        font-size: 1.5rem;
     }
 }
 
@@ -30,7 +47,7 @@
 
 @media screen and (max-width: 480px) {
     .first {
-        background-position: -100vw 0;
+        /*background-position: -100vw 0;*/
     }
     .advantages {
         flex-direction: column;

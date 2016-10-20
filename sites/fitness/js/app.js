@@ -203,24 +203,39 @@ var ADVANTAGES = [
 ]
 
 var Menu = React.createClass({
+    mobileMenu: function(){
+      $('.menu__list').toggleClass('menu__state');
+      if($('.menu__list').hasClass( 'menu__state' )){
+          $('.menu__icon__burger').css('display','none');
+          $('.menu__icon__close').css('display','block');
+      } else {
+          $('.menu__icon__burger').css('display','block');
+          $('.menu__icon__close').css('display','none');
+      }
+  },
+
     render: function(){
+
         return(
             <div className="menu">
-                 {/*<nav className="menu__list">
-                    <a href="#">About</a>
+                 <nav className="menu__list">
+                    <a href="#" >About</a>
                     <a href="#">Services</a>
                     <a href="#">How It Works</a>
                     <a href="#">Contact</a>
-                </nav>*/}
-                <div className="menu__icon">
-                    <BurgerSvg />
-                    {/*<CloseSvg />*/}
+                </nav>
+                <div className="menu__icon" onClick={this.mobileMenu}>
+
+                    <BurgerSvg  />
+                    <CloseSvg />
                 </div>
             </div>
 
 
         );
-    }
+    },
+
+
 });
 var Logo = React.createClass({
     render: function(){
