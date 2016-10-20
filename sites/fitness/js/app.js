@@ -74,8 +74,8 @@ const FacebookSvg =  React.createClass({
     render(){
         return(
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112.196 112.196">
-            	<circle style="fill:#3B5998;" cx="56.098" cy="56.098" r="56.098"/>
-            	<path style="fill:#FFFFFF;" d="M70.201,58.294h-10.01v36.672H45.025V58.294h-7.213V45.406h7.213v-8.34c0-5.964,2.833-15.303,15.301-15.303L71.56,21.81v12.51h-8.151c-1.337,0-3.217,0.668-3.217,3.513v7.585h11.334L70.201,58.294z"/>
+            	<circle fill="#3B5998" cx="56.098" cy="56.098" r="56.098"/>
+            	<path fill="#FFFFFF" d="M70.201,58.294h-10.01v36.672H45.025V58.294h-7.213V45.406h7.213v-8.34c0-5.964,2.833-15.303,15.301-15.303L71.56,21.81v12.51h-8.151c-1.337,0-3.217,0.668-3.217,3.513v7.585h11.334L70.201,58.294z"/>
             </svg>
         )
     }
@@ -84,9 +84,9 @@ const InstagramSvg =  React.createClass({
     render(){
         return(
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89.758 89.758">
-                <path style="fill:#6A453B;" d="M58.255,23.88H31.503c-4.27,0-7.744,3.474-7.744,7.744v26.752c0,4.27,3.474,7.745,7.744,7.745h26.752c4.27,0,7.745-3.474,7.745-7.745V31.624C66,27.354,62.526,23.88,58.255,23.88z M44.879,58.906c-7.667,0-13.905-6.238-13.905-13.906c0-7.667,6.238-13.905,13.905-13.905c7.668,0,13.906,6.238,13.906,13.905C58.785,52.667,52.546,58.906,44.879,58.906z M59.232,33.97c-1.815,0-3.291-1.476-3.291-3.29c0-1.814,1.476-3.29,3.291-3.29c1.814,0,3.29,1.476,3.29,3.29C62.522,32.494,61.046,33.97,59.232,33.97z"/>
-              	<path style="fill:#6A453B;" d="M44.879,36.971c-4.426,0-8.03,3.602-8.03,8.028c0,4.428,3.604,8.031,8.03,8.031c4.428,0,8.029-3.603,8.029-8.031C52.908,40.574,49.306,36.971,44.879,36.971z"/>
-              	<path style="fill:#6A453B;" d="M44.879,0C20.094,0,0,20.094,0,44.879c0,24.785,20.094,44.879,44.879,44.879c24.785,0,44.879-20.094,44.879-44.879C89.758,20.094,69.664,0,44.879,0z M71.875,58.376c0,7.511-6.109,13.62-13.62,13.62H31.503c-7.51,0-13.62-6.109-13.62-13.62V31.624c0-7.51,6.11-13.62,13.62-13.62h26.752c7.511,0,13.62,6.11,13.62,13.62V58.376z"/>
+                <path fill="#6A453B" d="M58.255,23.88H31.503c-4.27,0-7.744,3.474-7.744,7.744v26.752c0,4.27,3.474,7.745,7.744,7.745h26.752c4.27,0,7.745-3.474,7.745-7.745V31.624C66,27.354,62.526,23.88,58.255,23.88z M44.879,58.906c-7.667,0-13.905-6.238-13.905-13.906c0-7.667,6.238-13.905,13.905-13.905c7.668,0,13.906,6.238,13.906,13.905C58.785,52.667,52.546,58.906,44.879,58.906z M59.232,33.97c-1.815,0-3.291-1.476-3.291-3.29c0-1.814,1.476-3.29,3.291-3.29c1.814,0,3.29,1.476,3.29,3.29C62.522,32.494,61.046,33.97,59.232,33.97z"/>
+              	<path fill="#6A453B" d="M44.879,36.971c-4.426,0-8.03,3.602-8.03,8.028c0,4.428,3.604,8.031,8.03,8.031c4.428,0,8.029-3.603,8.029-8.031C52.908,40.574,49.306,36.971,44.879,36.971z"/>
+              	<path fill="#6A453B" d="M44.879,0C20.094,0,0,20.094,0,44.879c0,24.785,20.094,44.879,44.879,44.879c24.785,0,44.879-20.094,44.879-44.879C89.758,20.094,69.664,0,44.879,0z M71.875,58.376c0,7.511-6.109,13.62-13.62,13.62H31.503c-7.51,0-13.62-6.109-13.62-13.62V31.624c0-7.51,6.11-13.62,13.62-13.62h26.752c7.511,0,13.62,6.11,13.62,13.62V58.376z"/>
             </svg>
         )
     }
@@ -95,9 +95,9 @@ const LinkedinSvg =  React.createClass({
     render(){
         return(
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112.196 112.196">
-                <circle style="fill:#007AB9;" cx="56.098" cy="56.097" r="56.098"/>
+                <circle fill="#007AB9" cx="56.098" cy="56.097" r="56.098"/>
                 <g>
-                    <path style="fill:#F1F2F2;" d="M89.616,60.611v23.128H76.207V62.161c0-5.418-1.936-9.118-6.791-9.118c-3.705,0-5.906,2.491-6.878,4.903c-0.353,0.862-0.444,2.059-0.444,3.268v22.524H48.684c0,0,0.18-36.546,0-40.329h13.411v5.715c-0.027,0.045-0.065,0.089-0.089,0.132h0.089v-0.132c1.782-2.742,4.96-6.662,12.085-6.662C83.002,42.462,89.616,48.226,89.616,60.611L89.616,60.611z M34.656,23.969c-4.587,0-7.588,3.011-7.588,6.967c0,3.872,2.914,6.97,7.412,6.97h0.087c4.677,0,7.585-3.098,7.585-6.97C42.063,26.98,39.244,23.969,34.656,23.969L34.656,23.969zM27.865,83.739H41.27V43.409H27.865V83.739z"/>
+                    <path fill="#F1F2F2" d="M89.616,60.611v23.128H76.207V62.161c0-5.418-1.936-9.118-6.791-9.118c-3.705,0-5.906,2.491-6.878,4.903c-0.353,0.862-0.444,2.059-0.444,3.268v22.524H48.684c0,0,0.18-36.546,0-40.329h13.411v5.715c-0.027,0.045-0.065,0.089-0.089,0.132h0.089v-0.132c1.782-2.742,4.96-6.662,12.085-6.662C83.002,42.462,89.616,48.226,89.616,60.611L89.616,60.611z M34.656,23.969c-4.587,0-7.588,3.011-7.588,6.967c0,3.872,2.914,6.97,7.412,6.97h0.087c4.677,0,7.585-3.098,7.585-6.97C42.063,26.98,39.244,23.969,34.656,23.969L34.656,23.969zM27.865,83.739H41.27V43.409H27.865V83.739z"/>
                 </g>
             </svg>
         )
@@ -150,23 +150,32 @@ const UserSvg =  React.createClass({
         )
     }
 });
-const VkSvg =  React.createClass({
-    render(){
+
+const BurgerSvg =  React.createClass({
+    render: function(){
         return(
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112.196 112.196">
-                  <g>
-                  	<g>
-                  		<circle style="fill:#4D76A1;" cx="56.098" cy="56.098" r="56.098"/>
-                  	</g>
-                  	<path style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M53.979,80.702h4.403c0,0,1.33-0.146,2.009-0.878c0.625-0.672,0.605-1.934,0.605-1.934s-0.086-5.908,2.656-6.778c2.703-0.857,6.174,5.71,9.853,8.235c2.782,1.911,4.896,1.492,4.896,1.492l9.837-0.137c0,0,5.146-0.317,2.706-4.363c-0.2-0.331-1.421-2.993-7.314-8.463c-6.168-5.725-5.342-4.799,2.088-14.702c4.525-6.031,6.334-9.713,5.769-11.29c-0.539-1.502-3.867-1.105-3.867-1.105l-11.076,0.069c0,0-0.821-0.112-1.43,0.252c-0.595,0.357-0.978,1.189-0.978,1.189s-1.753,4.667-4.091,8.636c-4.932,8.375-6.904,8.817-7.71,8.297c-1.875-1.212-1.407-4.869-1.407-7.467c0-8.116,1.231-11.5-2.397-12.376c-1.204-0.291-2.09-0.483-5.169-0.514c-3.952-0.041-7.297,0.012-9.191,0.94c-1.26,0.617-2.232,1.992-1.64,2.071c0.732,0.098,2.39,0.447,3.269,1.644c1.135,1.544,1.095,5.012,1.095,5.012s0.652,9.554-1.523,10.741c-1.493,0.814-3.541-0.848-7.938-8.446c-2.253-3.892-3.954-8.194-3.954-8.194s-0.328-0.804-0.913-1.234c-0.71-0.521-1.702-0.687-1.702-0.687l-10.525,0.069c0,0-1.58,0.044-2.16,0.731c-0.516,0.611-0.041,1.875-0.041,1.875s8.24,19.278,17.57,28.993C44.264,81.287,53.979,80.702,53.979,80.702L53.979,80.702z"/>
-                  </g>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60.123 60.123" className="menu__icon__burger">
+                <path d="M57.124,51.893H16.92c-1.657,0-3-1.343-3-3s1.343-3,3-3h40.203c1.657,0,3,1.343,3,3S58.781,51.893,57.124,51.893z" fill="#FFFFFF"/>
+            	<path d="M57.124,33.062H16.92c-1.657,0-3-1.343-3-3s1.343-3,3-3h40.203c1.657,0,3,1.343,3,3   C60.124,31.719,58.781,33.062,57.124,33.062z" fill="#FFFFFF"/>
+            	<path d="M57.124,14.231H16.92c-1.657,0-3-1.343-3-3s1.343-3,3-3h40.203c1.657,0,3,1.343,3,3S58.781,14.231,57.124,14.231z" fill="#FFFFFF"/>
+            	<circle cx="4.029" cy="11.463" r="4.029" fill="#FFFFFF"/>
+            	<circle cx="4.029" cy="30.062" r="4.029" fill="#FFFFFF"/>
+            	<circle cx="4.029" cy="48.661" r="4.029" fill="#FFFFFF"/>
             </svg>
-        )
+        );
+    }
+});
+const CloseSvg =  React.createClass({
+    render: function(){
+        return(
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47.971 47.971" className="menu__icon__close">
+                <path d="M28.228,23.986L47.092,5.122c1.172-1.171,1.172-3.071,0-4.242c-1.172-1.172-3.07-1.172-4.242,0L23.986,19.744L5.121,0.88   c-1.172-1.172-3.07-1.172-4.242,0c-1.172,1.171-1.172,3.071,0,4.242l18.865,18.864L0.879,42.85c-1.172,1.171-1.172,3.071,0,4.242   C1.465,47.677,2.233,47.97,3,47.97s1.535-0.293,2.121-0.879l18.865-18.864L42.85,47.091c0.586,0.586,1.354,0.879,2.121,0.879   s1.535-0.293,2.121-0.879c1.172-1.171,1.172-3.071,0-4.242L28.228,23.986z" fill="#FFFFFF"/>
+            </svg>
+        );
     }
 });
 
-
-var ADVANTAGES= [
+var ADVANTAGES = [
     {
         id: 1,
         icon: <BriefcaseSvg />,
@@ -193,6 +202,48 @@ var ADVANTAGES= [
     },
 ]
 
+var Menu = React.createClass({
+    render: function(){
+        return(
+            <div className="menu">
+                 {/*<nav className="menu__list">
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">How It Works</a>
+                    <a href="#">Contact</a>
+                </nav>*/}
+                <div className="menu__icon">
+                    <BurgerSvg />
+                    {/*<CloseSvg />*/}
+                </div>
+            </div>
+
+
+        );
+    }
+});
+var Logo = React.createClass({
+    render: function(){
+        return(
+            <a href = "#" className = "logo">
+                <DropRedSvg />
+                <h1 className = "logo_title">fitness</h1>
+            </a>
+        );
+    }
+});
+
+var Tagline = React.createClass({
+    render: function () {
+        return(
+            <div className = "tagline">
+                <h2>Fitness in a can</h2>
+                <h3>Yes you can</h3>
+            </div>
+        );
+
+    }
+});
 var Advantages = React.createClass({
     render: function(){
         return(
@@ -223,16 +274,117 @@ var AdvantagesAll = React.createClass({
     }
 });
 
+var AboutInfo = React.createClass({
+    render: function () {
+        return(
+            <div className = {this.props.Globalclass}>
+                <span className = "about__subtitle">{this.props.Subtitle}</span>
+                <h1 className = "about__title">{this.props.AboutTitle}</h1>
+                {this.props.svg}
+                <p className = "about__text">{this.props.AboutText}</p>
+            </div>
+        );
+    }
+});
+var AbautImg = React.createClass({
+    render: function () {
+        return (
+            <div className = {this.props.classnameWrapper}>
+                <div className = {this.props.classname}>
+                    <p>Active Users</p>
+                    <span>(34)</span>
+                    <DropRedSvg />
+                </div>
+            </div>
+        );
+    }
+});
 
+var AboutInfoRed = React.createClass({
+    render: function () {
+        return(
+            <div className = {this.props.classname}>
+                    <div className = {this.props.classnamePicture}></div>
+                    <div className = {this.props.classnamePicture2}></div>
+                    <AboutInfo Globalclass = "about__inner about__inner--small" Subtitle = "track your" AboutTitle = "lifestyle" svg = <UserSvg />  AboutText = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."/>
+                    <AboutInfo Globalclass = "about__inner about__inner--big about__inner--green" AboutTitle = "summer of fun" AboutText = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."/>
+                    <div className = {this.props.classnamePicture3}></div>
+                    <div className = {this.props.classnamePicture4}></div>
+                    <AboutInfo Globalclass = "about__inner about__inner--big" Subtitle = "track your" AboutTitle = "get involved in yourself" svg = <StrawberrySvg />  AboutText = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillumdolore eu fugiat nulla pariatur."/>
+                    <AboutInfo Globalclass = "about__inner about__inner--small about__inner--green" Subtitle = "improve your" AboutTitle = "eating habits" svg = <AvocadoSvg />  AboutText = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."/>
+            </div>
+        );
+    }
+});
+
+var SingleBlock = React.createClass({
+    render: function() {
+        return(
+            <div className = {this.props.classname}>
+                <h2>{this.props.title}</h2>
+                <p>{this.props.text}</p>
+            </div>
+        );
+    }
+});
+
+var Social = React.createClass({
+    render: function() {
+        return(
+            <div className = "footer__top__text">
+                <h2>Stay in touch</h2>
+                <ul>
+                    <li>
+                        <a href = "#">
+                            <FacebookSvg />
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "#">
+                            <LinkedinSvg />
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "#">
+                            <InstagramSvg />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        )
+    }
+});
 
 ReactDOM.render(
-        <div className="wrapper">
-            <section className="first">
+        <div className = "wrapper">
+            <section className = "first">
+                <Menu />
+                <Logo />
+                <Tagline />
             </section>
-            <section className="second">
+            <section className = "second">
                 <AdvantagesAll />
+                <div className = "about">
+                    <AboutInfo Globalclass = "about__inner" Subtitle = "it’s all about" AboutTitle = "fitness first" svg = <DropGreySvg />  AboutText = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."/>
+                    <AbautImg classname = "about__img__text about__img__text--right" classnameWrapper = "about__img about__img--top"/>
+                    <AbautImg classname = "about__img__text about__img__text--left" classnameWrapper = "about__img about__img--bottom"/>
+                    <AboutInfo Globalclass = "about__inner" Subtitle = "love your" AboutTitle = "your body" svg = <DropGreySvg />  AboutText = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."/>
+                </div>
             </section>
+            <section className = "third">
+                    <AboutInfoRed classname="about about--center" classnamePicture = "about__picture--small" classnamePicture2 = "about__picture--big" classnamePicture3 = "about__picture--big about__picture--big--br" classnamePicture4 = "about__picture--small about__picture--small--bl"/>
+            </section>
+            <section className = "fourth">
+                <SingleBlock  classname = "align-block" title = "We launch leaders with big ideas" text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
+            </section>
+            <footer>
+                <div className = "footer__top">
+                    <SingleBlock  classname = "footer__top__text" title = "Resources" text = "Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. work-in-progress by dragging images into projects and sharable client group"/>
+                    <SingleBlock  classname = "footer__top__text" title = "About us" text = "Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. work-in-progress by dragging images into projects and sharable client group"/>
+                    <Social />
+                </div>
 
+            </footer>
         </div>,
             document.getElementById("content")
         );

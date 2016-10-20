@@ -6,19 +6,114 @@ html, body{
 .first {
     width: 100%;
     height: 100vh;
-    background: url("../images/bg.jpg") no-repeat;
+    background-image: url("../images/bg.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    transition: all .5s;
+}
+/*.menu__icon {
+    display: none;
+}*/
+.menu__icon {
+    display: block;
+    position: absolute;
+    right: 3rem;
+    top: 3rem;
+    width: 25px;
+    height: 25px;
+}
+.menu {
+    display: flex;;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 3.8rem 3rem 0 0;
+}
+.menu a {
+    font-family: 'open_sanssemibold', sans-serif;
+    font-size: 1.1rem;
+    color: #fff;
+    margin-left: 1rem;
+    text-transform: uppercase;
+}
+.menu a:hover {
+    text-decoration: underline;
+}
+.logo {
+    position: absolute;
+    display: flex;;
+    flex-direction: row;
+    align-items: center;
+    top: 3rem;
+    left: 3rem;
+}
+.logo svg {
+    width: 3rem;
+    height: 3rem;
+}
+.logo h1 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-family: 'open_sanssemibold', sans-serif;
+    color: #fff;
+    position: relative;
+    display: block;
+}
+.logo h1:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 2rem;
+    height: .2rem;
+    background: #a2ca28;
+    bottom: -.4rem;
+}
+.tagline {
+    position: absolute;
+    display: flex;;
+    flex-direction: column;;
+    align-items: flex-end;
+    bottom: 3rem;
+    left: 3rem;
+    font-family: 'open_sansregular', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+}
+.tagline h2 {
+    font-size: 1.7rem;
+    position: relative;
+}
+.tagline h2::before {
+    content: '/';
+    position: absolute;
+    font-size: 2rem;
+    color: #a2ca28;
+    right: -.8rem;
+    top: -.1rem;
+}
+.tagline h3 {
+    font-size: .9rem;
+    position: relative;
+    margin: .5rem .5rem 0 0;
+}
+.tagline h3::before {
+    content: '/';
+    position: absolute;
+    font-size: 1rem;
+    color: #fd634e;
+    right: -.4rem;
+    top: -.1rem;
 }
 .second {
     width: 100%;
     background: #a2ca28;
 }
 .advantages {
-    width: 74vw;
-    margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    width: 74vw;
+    margin: 0 auto;
+    padding: 5.3rem 0 10rem 0;
 }
 .advantages__item {
     width: 17vw;
@@ -38,4 +133,183 @@ html, body{
     color: #fff;
     font-size: 0.87rem;
     line-height: 1.7;
+}
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 74vw;
+    margin: 0 auto;
+
+}
+.about__inner {
+    width: 35%;
+    background: #fff;
+    text-align: center;
+    padding: 3.5rem;
+}
+.about__subtitle {
+    color: #fd634e;
+    text-transform: uppercase;
+    font-family: 'open_sanssemibold', sans-serif;
+    font-size: .87rem;
+}
+.about__title {
+    color: #a2ca28;
+    text-transform: uppercase;
+    font-size: 2.18rem;
+    font-family: 'open_sansregular', sans-serif;
+    padding: 1rem 0;
+}
+.about__inner svg {
+    width: 2rem;
+    margin: 0 0 1rem 0;
+}
+.about__text {
+    font-family: 'open_sansregular', sans-serif;
+    color: #656e74;
+    font-size: .9rem;
+    line-height: 1.2;
+}
+.about__img {
+    width: 65%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about__img--top {
+    background-image: url("../images/picture1.jpg");
+}
+.about__img--bottom {
+    background-image: url("../images/picture2.jpg");
+}
+.about__img__text {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    font-family: 'open_sanssemibold', sans-serif;
+    font-size: .75rem;
+}
+.about__img__text p {
+    color: #f7614c;
+    align-self: center;
+}
+.about__img__text span {
+    color: #fff;
+    align-self: center;
+}
+.about__img__text svg {
+    height: 1rem;
+    margin-left: .5rem;
+    align-self: center;
+}
+.about__img__text--right {
+    bottom: 2rem;
+    right: 2rem;
+}
+.about__img__text--left {
+    bottom: 2rem;
+    left: 2rem;
+}
+.third {
+    background: #fd634e;
+}
+
+.about__inner--big {
+    padding: 4.5rem 3.5rem 6.7rem 3.5rem;
+    width: 65%;
+}
+.about__inner--green {
+    background: #a2ca28;
+}
+.about__inner--green .about__title, .about__inner--green .about__text, .about__inner--green .about__subtitle{
+    color: #fff;
+}
+.about--center  .about__inner {
+    text-align: left;
+    position: relative;
+}
+.about__inner--small svg, .about__inner--big svg {
+    position: absolute;
+    top: 3.5rem;
+    right: 2rem;
+}
+.about__picture--small {
+    background: url("../images/picture3.jpg") no-repeat;
+    background-size: cover;
+    max-height: 330px;
+    width: 35%;
+    height: 18rem;
+}
+.about__picture--big {
+    background: url("../images/picture4.jpg") no-repeat;
+    background-size: cover;
+    max-height: 330px;
+    width: 65%;
+    height: 18rem;
+}
+.about__picture--big--br {
+    background: url("../images/picture5.jpg") no-repeat;
+}
+.about__picture--small--bl {
+    background: url("../images/picture6.jpg") no-repeat;
+}
+.fourth {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/bg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.align-block {
+    width: 32.7vw;
+    text-align: center;
+    color: #fff;
+}
+.align-block h2 {
+    font-family: 'open_sanssemibold', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.align-block p {
+    font-family: 'open_sansregular', sans-serif;
+    font-size: 1rem;
+}
+footer {
+    background: #0d1119;
+}
+.footer__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 74vw;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+.footer__top__text {
+    color: #fff;
+    width: 20vw;
+}
+.footer__top__text h2 {
+    font-family: 'open_sansregular', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.footer__top__text p {
+    font-family: 'open_sanslight', sans-serif;
+    font-size: .8rem;
+    color: #8297a7;
+    line-height: 1.2;
+}
+.footer__top__text ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.footer__top__text svg {
+    width: 4vw;
 }
