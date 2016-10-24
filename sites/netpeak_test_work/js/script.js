@@ -39,10 +39,18 @@ function MenuMobile() {
 }
 
 $(document).ready(function(){
+
+    var myScroll = new IScroll('body', {
+        scrollbars: 'custom',
+        // scrollbars: true
+    });
+
     $(".group-card").slice(0, 8).show();
+
     LoadMore();
     ToTop();
     MenuMobile();
+
     $(window).resize(function (){
         var WindowWidth = $(window).width();
         if(WindowWidth>640) {

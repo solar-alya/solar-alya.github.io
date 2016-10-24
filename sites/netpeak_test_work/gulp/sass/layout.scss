@@ -22,7 +22,7 @@
     padding: 0 1rem;
 
 }
-.header__inner__logo {
+.header__inner__logo a{
     font-family: 'Grand Hotel', cursive;
     font-size: 2.5rem;
     text-transform: capitalize;
@@ -131,4 +131,23 @@ body {
 }
 #to_top:hover {
     opacity: .5;
+}
+.iScrollVerticalScrollbar {
+    position: absolute;
+    z-index: 9;
+    width: 2px;
+    bottom: 2px;
+    top: 2px;
+    right: 7px;
+}
+.iScrollIndicator {
+    position: absolute;
+    border-radius: 3px;
+    width: 4px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: block;
+    height: 240px;
+    background: #C1C1C1;
 }
