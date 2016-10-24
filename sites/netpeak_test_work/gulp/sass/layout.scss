@@ -12,22 +12,25 @@ body {
     width: 100%;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
+    position: relative;
+    padding-bottom: 5rem;
 }
 .group {
     width: 69vw;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
     transition: all .5s;
+    padding-bottom: 5rem;
 }
 .group-card {
     max-width: 200px;
-    display: flex;
-    flex-direction: column;
-    // margin-bottom: 5rem;
+    // display: flex;
+    // flex-direction: column;
+    display:none;
     margin: 1rem;
 }
 .group-card__img {
@@ -56,4 +59,25 @@ body {
 }
 .group-card__song {
     line-height: 1.6;
+}
+#loadMore {
+    text-align: center;
+    cursor: pointer;
+    margin: 0 auto;
+    display: table;
+    font-size: 1.1rem;
+}
+#to_top {
+    display: none;
+    position: fixed;
+    bottom: 5rem;
+    right: 2rem;
+    cursor: pointer;
+    background: #f4f3f4;
+    padding: .5rem;
+    border-radius: .5rem;
+    font-size: .8rem;
+}
+#to_top:hover {
+    opacity: .5;
 }
