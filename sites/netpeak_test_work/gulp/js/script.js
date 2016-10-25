@@ -48,7 +48,7 @@ function MenuMobile() {
 
 $(document).ready(function(){
 
-    $(".group-card").slice(0, 8).show();
+    // $(".group-card").slice(0, 8).show();
     loaded ();
     LoadMore();
     ToTop();

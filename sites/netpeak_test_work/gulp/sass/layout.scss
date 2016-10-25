@@ -87,6 +87,9 @@ body {
     display:none;
     margin: 1rem;
 }
+.group-card:nth-child(-n+8) {
+    display: block;
+}
 .group-card__img {
     max-width: 200px;
     max-height: 100px;
@@ -146,22 +149,3 @@ body {
 #to_top:hover {
     opacity: .5;
 }
-// .iScrollVerticalScrollbar {
-//     position: absolute;
-//     z-index: 9;
-//     width: 2px;
-//     bottom: 2px;
-//     top: 2px;
-//     right: 7px;
-// }
-// .iScrollIndicator {
-//     position: absolute;
-//     border-radius: 3px;
-//     width: 4px;
-//     left: 0;
-//     right: 0;
-//     margin: 0 auto;
-//     display: block;
-//     height: 240px;
-//     background: #C1C1C1;
-// }
