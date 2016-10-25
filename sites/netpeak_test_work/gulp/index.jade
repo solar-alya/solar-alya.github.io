@@ -42,8 +42,8 @@ html(lang="en")
                             .group-card__img
                                 img(src= group.image alt= group.title )
                             .group-card__info
-                                h1.group-card__title= group.title
-                                h2.group-card__year= group.year
+                                h2.group-card__title= group.title
+                                h3.group-card__year= group.year
                                 ul.group-card__songs
                                     each song in group.songs
                                      li.group-card__song= song
