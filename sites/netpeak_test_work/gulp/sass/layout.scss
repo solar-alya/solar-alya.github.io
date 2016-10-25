@@ -61,14 +61,14 @@ body {
 }
 .wrapper {
     height: 100vh;
-    overflow:auto;
+    overflow: hidden;
     position: absolute;
     width: 100%;
     z-index: 1;
-
 }
 .inner {
     height: auto;
+    padding-bottom: 5rem;
 }
 .group {
     width: 69vw;
@@ -80,7 +80,7 @@ body {
     align-items: flex-start;
     flex-wrap: wrap;
     transition: all .5s;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 .group-card {
     max-width: 200px;

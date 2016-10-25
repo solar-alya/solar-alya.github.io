@@ -5,7 +5,8 @@ function loaded () {
         scrollbars: true,
         interactiveScrollbars: true,
         mouseWheel: true,
-        fadeScrollbars: true
+        fadeScrollbars: true,
+
     });
 
 }
@@ -17,6 +18,7 @@ function LoadMore() {
             $("#loadMore").fadeOut('slow');
         }
          $(".group-card:hidden").slice(0, 4).slideDown();
+         $("#to_top").fadeIn("slow");
          setTimeout(function () {
             myScroll.refresh();
         }, 500);
@@ -25,19 +27,9 @@ function LoadMore() {
 }
 
 function ToTop() {
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 50) {
-            $('#to_top').fadeIn();
-        } else {
-            $('#to_top').fadeOut();
-        }
-    });
     $('#to_top').click(function () {
-    $('body,html').animate({
-        scrollTop: 0
-    }, 600);
-    return false;
-});
+        myScroll.scrollTo(0, 0, 1000);
+    });
 }
 function MenuMobile() {
     $('.menu__icon').on('click', function() {
@@ -55,12 +47,6 @@ function MenuMobile() {
 }
 
 $(document).ready(function(){
-
-    // var myScroll = new IScroll('.wrapper', {
-    //     // scrollbars: 'custom',
-    //     // scrollbars: true
-    // });
-
 
     $(".group-card").slice(0, 8).show();
     loaded ();
