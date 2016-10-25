@@ -1,3 +1,15 @@
+var myScroll;
+
+function loaded () {
+    myScroll = new IScroll('.wrapper', {
+        scrollbars: true,
+        interactiveScrollbars: true,
+        mouseWheel: true,
+        fadeScrollbars: true
+    });
+
+}
+
 function LoadMore() {
     $("#loadMore").on('click', function (e){
         e.preventDefault();
@@ -5,6 +17,10 @@ function LoadMore() {
             $("#loadMore").fadeOut('slow');
         }
          $(".group-card:hidden").slice(0, 4).slideDown();
+         setTimeout(function () {
+            myScroll.refresh();
+        }, 500);
+
     });
 }
 
@@ -40,13 +56,14 @@ function MenuMobile() {
 
 $(document).ready(function(){
 
-    var myScroll = new IScroll('body', {
-        scrollbars: 'custom',
-        // scrollbars: true
-    });
+    // var myScroll = new IScroll('.wrapper', {
+    //     // scrollbars: 'custom',
+    //     // scrollbars: true
+    // });
+
 
     $(".group-card").slice(0, 8).show();
-
+    loaded ();
     LoadMore();
     ToTop();
     MenuMobile();

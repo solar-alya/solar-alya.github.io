@@ -17,6 +17,7 @@
 }
 .header__inner {
     width: 69vw;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     padding: 0 1rem;
@@ -56,9 +57,22 @@ body {
     text-transform: uppercase;
     position: relative;
     padding-bottom: 5rem;
+
+}
+.wrapper {
+    height: 100vh;
+    overflow:auto;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+
+}
+.inner {
+    height: auto;
 }
 .group {
     width: 69vw;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -132,22 +146,22 @@ body {
 #to_top:hover {
     opacity: .5;
 }
-.iScrollVerticalScrollbar {
-    position: absolute;
-    z-index: 9;
-    width: 2px;
-    bottom: 2px;
-    top: 2px;
-    right: 7px;
-}
-.iScrollIndicator {
-    position: absolute;
-    border-radius: 3px;
-    width: 4px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    display: block;
-    height: 240px;
-    background: #C1C1C1;
-}
+// .iScrollVerticalScrollbar {
+//     position: absolute;
+//     z-index: 9;
+//     width: 2px;
+//     bottom: 2px;
+//     top: 2px;
+//     right: 7px;
+// }
+// .iScrollIndicator {
+//     position: absolute;
+//     border-radius: 3px;
+//     width: 4px;
+//     left: 0;
+//     right: 0;
+//     margin: 0 auto;
+//     display: block;
+//     height: 240px;
+//     background: #C1C1C1;
+// }
