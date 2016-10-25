@@ -55,6 +55,32 @@ html(lang="en")
                 a(href="#" id="loadMore") Load more
             a(href="#top" id="to_top") To Top
                         
-        script(src="js/jquery-1.9.1.min.js")
-        script(src="js/script.js")
-        script(src="js/iscroll.js")
+        //- script(src="js/jquery-1.9.1.min.js")
+        //- script(src="js/iscroll.js")
+        //- script(src="js/script.js")
+        
+        script.
+            var scriptsToLoad = [
+              "js/jquery-1.9.1.min.js",
+              "js/iscroll.js",
+              "js/script.js"
+            ];
+            var loadedScripts = 0;
+            
+            function load_js() {
+                var url = scriptsToLoad[loadedScripts];
+                var head = document.getElementsByTagName('head')[0];
+                var link = document.createElement('script');
+                link.src = url;
+                head.appendChild(link);
+                link.onload = link.onreadystatechange = function() {
+                    if ((!this.readyState || this.readyState == 'complete') ) {
+                        loadedScripts++;
+                    if (loadedScripts < scriptsToLoad.length)load_js();
+                    }
+                    };
+                }
+            
+            setTimeout (function() {
+                load_js(scriptsToLoad)
+            }, 100);
