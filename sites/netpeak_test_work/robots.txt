@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://solar-alya.github.io/sites/netpeak_test_work/sitemap.xml
