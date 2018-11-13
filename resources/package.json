@@ -2,19 +2,64 @@
   "name": "resources",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/resources/build/",
-
+  "homepage": "/solar-alya.github.io/resources/build/",
+  "scripts": {
+    "build": "webpack --config=configs/prod",
+    "build:analyze": "NODE_ENV=analyze npm run build",
+    "lint": "prettier --list-different \"src/**/*.js\" && NODE_ENV=lint eslint \"src/**/*.js\"",
+    "lint:fix": "NODE_ENV=lint eslint --fix \"src/**/*.js\" && prettier --write \"src/**/*.js\" ",
+    "watch": "webpack -w --config=configs/dev"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.2",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-lodash": "^3.3.2",
+    "babel-plugin-react-intl": "^2.4.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "css-loader": "^0.28.4",
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.7.0",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "7.4.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.5",
+    "image-webpack-loader": "^3.4.2",
+    "node-sass": "^4.7.2",
+    "prettier": "^1.8.2",
+    "redux-devtools": "^3.4.1",
+    "redux-logger": "^3.0.6",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "uglifyjs-webpack-plugin": "^1.1.2",
+    "webpack": "^3.8.1",
+    "webpack-bundle-analyzer": "^2.9.1",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-dev-server": "^2.9.3",
+    "webpack-manifest-plugin": "^2.0.0-rc.2",
+    "webpack-merge": "^4.1.0"
+  },
   "dependencies": {
+    "axios": "^0.17.1",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.0.17"
-
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-
+    "react-places-autocomplete": "^7.1.2",
+    "react-redux": "^5.0.6",
+    "react-spinners": "^0.3.2",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "semantic-ui-css": "^2.3.1",
+    "semantic-ui-react": "^0.80.2"
   }
 }

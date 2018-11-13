@@ -1,0 +1,72 @@
+#weather .location-search-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #eee;
+  background: transparent;
+  font-size: 16px; }
+
+#weather .wrapper {
+  padding: 50px; }
+
+.card {
+  min-width: 200px;
+  background: #1bbc9d;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 6px 2px 20px -2px rgba(0, 0, 0, 0.3); }
+
+.card__top {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center; }
+
+.card__top svg {
+  width: 20px;
+  height: 20px; }
+
+.card p {
+  color: #fff;
+  padding: 0;
+  margin: 0; }
+
+.card__center {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px; }
+
+.card__center .icon_wrapper {
+  width: 3rem;
+  height: 3rem; }
+
+.card__center svg {
+  width: 100%;
+  height: 100%; }
+
+.card__center p {
+  font-size: 2rem; }
+
+.card__bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 13px;
+  padding: 20px;
+  margin: 0 -20px -20px -20px;
+  border-top: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.2); }
+
+.card__top p {
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.close-icon {
+  position: absolute;
+  right: 12px;
+  top: 0;
+  color: #fff; }

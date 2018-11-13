@@ -1,0 +1,16 @@
+{
+  "presets": [
+    ["env", {
+      "modules": false,
+      "targets": {
+        "ie": "11"
+      }
+    }],
+    "react"
+  ],
+  "plugins": [
+    "transform-object-rest-spread",
+    "transform-class-properties",
+    ["lodash", { "id": ["lodash", "recompose"] }]
+  ]
+}
